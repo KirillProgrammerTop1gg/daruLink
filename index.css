@@ -67,6 +67,35 @@ header{
     margin-top: 80px;
     padding: 0;
 }
+/* sectDL */
+.sectDL{
+    background-color: #181F29;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+/* textDaruLink */
+.textDaruLink{
+    width: 753px;
+}
+/* listPrs */
+.listPrs{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0;
+    width: 1141px;
+}
+/* pr */
+.pr{
+    width: 243px;
+    height: 269px;
+    background: #273140;
+    box-shadow: 0px 1px 26px rgba(24, 31, 41, 0.15);
+    border-radius: 15px;
+    padding: 37px 33px 37px 38px;
+    text-align: center;
+}
 .typeText1{
     font-style: normal;
     font-weight: 500;
@@ -96,6 +125,14 @@ header{
     text-align: center;
     color: #FFFFFF;
 }
+.typeText4{
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 142.8%;
+    color: #6A7C95;
+}
 .hTypeText1{
     margin: 0;
     margin-top: 79px;
@@ -105,5 +142,26 @@ header{
     line-height: 101.3%;
     display: flex;
     align-items: center;
+    color: #FFFFFF;
+}
+.h2TypeText1{
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.h3TypeText1{
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
     color: #FFFFFF;
 }
