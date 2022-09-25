@@ -1,0 +1,109 @@
+*{
+    font-family: 'Inter Tight';
+}
+body{
+    margin: 0;
+}
+/* centerContainer */
+.centerContainer{
+    margin: 0 auto;
+    width: 1148px;
+}
+/* header */
+header{
+    padding-top: 106px;
+    background-color: #11161E;
+}
+/* navigation */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+/* listNav */
+.listNav{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 375px;
+    margin: auto 0;
+    padding: 0;
+}
+/* logotype */
+.logotype{
+    width: 34px;
+    height: 53px;
+}
+/* sectHero */
+.sectHero{
+    background: #11161E;
+    padding-top: 106px;
+    padding-bottom: 124px;
+}
+/* telScreenTextHero */
+.telScreenTextHero{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+/* butCreatePage */
+.butCreatePage{
+    width: 262px;
+    height: 49px;
+    background: #5CA35B;
+    border: 0;
+    border-radius: 10px;
+    justify-content: center;
+}
+/* listCont */
+.listCont {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 390px;
+    margin: 0;
+    margin-top: 80px;
+    padding: 0;
+}
+.typeText1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 151.3%;
+    display: flex;
+    align-items: center;
+    color: rgba(118, 134, 159, 0.8);
+    text-decoration: none;
+}
+.typeText2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 129.8%;
+    display: flex;
+    align-items: center;
+    color: #6A7C95;
+}
+.typeText3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 151.3%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hTypeText1{
+    margin: 0;
+    margin-top: 79px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 101.3%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
