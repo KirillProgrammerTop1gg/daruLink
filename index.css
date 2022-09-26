@@ -11,8 +11,13 @@ body{
 }
 /* header */
 header{
-    padding-top: 106px;
+    padding-top: 100px;
     background-color: #11161E;
+}
+/* hrATX1 */
+.hrATX1:hover{
+    color: #5CA35B;
+    transition: 0.2s;
 }
 /* navigation */
 .navigation{
@@ -38,7 +43,7 @@ header{
 /* sectHero */
 .sectHero{
     background: #11161E;
-    padding-top: 106px;
+    padding-top: 90px;
     padding-bottom: 124px;
 }
 /* telScreenTextHero */
@@ -96,6 +101,89 @@ header{
     padding: 37px 33px 37px 38px;
     text-align: center;
 }
+/* sectVm */
+.sectVm {
+    background-color: #11161E;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+/* listVms */
+.listVms{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0;
+    width: 600px;
+}
+/* sectUdo */
+.sectUdo{
+    background-color: #181F29;
+    padding-top: 90px;
+}
+/* dzFC */
+.dzFC{
+    margin-top: 50px;
+    width: 262px;
+    height: 49px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 151.3%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #6A7C95;
+    border: 0;
+    background: #212A38;
+    border-radius: 10px;
+}
+/* sectTar */
+.sectTar{
+    background-color: #11161E;
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+/* listTars */
+.listTars{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0;
+    width: 1163px;
+}
+/* liFTar */
+.liFTar{
+    width: 265px;
+    height: 337px;
+    padding: 53px 26px 47px 26px;
+    background: #273140;
+    box-shadow: 0px 1px 26px rgba(24, 31, 41, 0.15);
+    border-radius: 15px;
+}
+/* liguB */
+.liguB{
+    opacity: 0.5;
+}
+/* butTar */
+.butTar{
+    margin-top: 35px;
+    width: 248px;
+    height: 38px;
+    border: 0;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
 .typeText1{
     font-style: normal;
     font-weight: 500;
@@ -105,6 +193,7 @@ header{
     align-items: center;
     color: rgba(118, 134, 159, 0.8);
     text-decoration: none;
+    transition: 0.2s;
 }
 .typeText2{
     font-style: normal;
@@ -132,6 +221,14 @@ header{
     font-size: 19px;
     line-height: 142.8%;
     color: #6A7C95;
+}
+.typeText5{
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160.3%;
+    color: #717E92;
 }
 .hTypeText1{
     margin: 0;
