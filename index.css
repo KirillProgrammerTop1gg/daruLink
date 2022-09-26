@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 *{
     font-family: 'Inter Tight';
 }
@@ -185,6 +188,27 @@ header{
     justify-content: center;
     color: #FFFFFF;
 }
+/* sectOno */
+.sectOno{
+    background-color: #181F29;
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+/* listSoc */
+.listSoc{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0;
+    width: 266.46px;
+}
+/* footer */
+footer{
+    background-color: #11161E;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
 .typeText1{
     font-style: normal;
     font-weight: 500;
@@ -230,6 +254,13 @@ header{
     font-size: 16px;
     line-height: 160.3%;
     color: #717E92;
+}
+.typeText6{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 128.8%;    
+    color: #2D3746;
 }
 .hTypeText1{
     margin: 0;
